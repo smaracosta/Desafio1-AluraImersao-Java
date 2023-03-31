@@ -25,12 +25,14 @@ public class Main {
 
         // Exibir e manipular os dados
 
+        System.out.println("\u001b[1m\u001b[97mSéries mais populares:");
+        System.out.println();
         for (Map<String, String> serie :
                 listaDeSeries) {
             System.out.print("\u001b[1m\u001b[30m\u001b[103mTítulo: "+(serie.get("title"))+"\u001b[m");
             System.out.print("\n\u001b[97mURL da imagem: "+(serie.get("image")));
-            System.out.print("\nNota: "+(serie.get("imDbRating"))+" ");
-
+            System.out.print("\nRank: "+(serie.get("rank")));
+            System.out.print("\nNota (IMDb Rating): "+(serie.get("imDbRating"))+" ");
             String rating = serie.get("imDbRating");
             int rating2 = Math.round(Float.parseFloat(rating));
 
