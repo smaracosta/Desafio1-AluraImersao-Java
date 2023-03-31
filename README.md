@@ -1,4 +1,4 @@
-#Alura - Imersão Java_
+# Alura - Imersão Java_
 
 Aula 01 - Consumir uma API do IMDb de top filmes/séries com Java e mostrar o resultado no terminal, deixando ele mais "bonito".
 
